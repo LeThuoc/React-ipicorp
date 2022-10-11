@@ -1,0 +1,16 @@
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+    background-color: #f0f0f0;
+    object-fit: cover;
+    overflow: hidden;
+    img {
+        height: 100%;
+        width: 100%;
+        max-width: calc(1140px - 4vw);
+        object-fit: cover;
+    }
+}
